@@ -19,7 +19,7 @@ This project demonstrates basic **Python list operations** — appending, insert
 ## 💻 Code Example
 
 ```python
- 1. Create an empty list
+ # 1. Create an empty list
 my_list = []
 
 # 2. Append 10, 20, 30, 40
@@ -27,32 +27,33 @@ my_list.append(10)
 my_list.append(20)
 my_list.append(30)
 my_list.append(40)
+print(my_list)
 
 # 3. Insert 15 at the second position (index 1)
 my_list.insert(1, 15)
+print(my_list)
 
 # 4. Extend with another list [50, 60, 70]
-my_list.extend([50, 60, 70])
+new_list = [50, 60,70]
+my_list.extend(new_list)
+print(my_list)
 
 # 5. Remove the last element
-my_list.pop()
+my_list.remove(70)
 
 # 6. Sort in ascending order
 my_list.sort()
+print(my_list)
 
 # 7. Find and print the index of value 30
 index_30 = my_list.index(30)
 print("Index of 30:", index_30)
 
-# Final output
+# Print final list for clarity
 print("Final list:", my_list)
-📂 Output
-yaml
-Copy
-Edit
-Index of 30: 3
-Final list: [10, 15, 20, 30, 40, 50, 60]
-🚀 How to Run
+
+
+## 🚀 How to Run
 Clone this repository:
 
 bash
@@ -71,5 +72,5 @@ bash
 Copy
 Edit
 python list_operations.py
-📜 License
+##📜 License
 This project is open-source and available under the MIT License.
