@@ -53,7 +53,7 @@ print("Index of 30:", index_30)
 print("Final list:", my_list)
 
 
-## 🚀 How to Run
+ 🚀 How to Run
 Clone this repository:
 
 bash
@@ -72,5 +72,6 @@ bash
 Copy
 Edit
 python list_operations.py
-##📜 License
+
+📜 License
 This project is open-source and available under the MIT License.
